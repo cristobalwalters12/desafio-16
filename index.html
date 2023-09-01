@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarjeta de Conversión</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Conversor de monedas Nacional</h1>
+    <div class="container mt-5 div">
+      <div class="card">
+        <div class="card-body card">
+          <h1>Pesos CLP</h1>
+          <input
+            type="number"
+            class="form-control mb-3 text-center"
+            placeholder="Ingresa un número"
+            id="numeroInput"
+          />
+          <p class="mb-2 text-center">Moneda a convertir:</p>
+
+          <select id="monedaSelect" class="form-control mb-3">
+            <option value="dolar">Dólar</option>
+            <option value="euro">Euro</option>
+          </select>
+          <div class="text-center pt-3">
+            <button id="convertir" type="button" class="btn btn-primary">
+              Buscar
+            </button>
+          </div>
+          <div class="text-center">
+            <p id="resultado" class="pt-2">...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assests/script/index.js"></script>
+  </body>
+</html>

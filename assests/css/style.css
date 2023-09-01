@@ -1,0 +1,16 @@
+.div {
+  width: 500px;
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+p {
+  color: aliceblue;
+}
+.card {
+  background-color: gray;
+}
+body {
+  background-color: black;
+}
